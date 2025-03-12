@@ -185,6 +185,7 @@ body {
 
     .upper_part {
         height: 60%;
+        gap: 20px;
     }
 
     .upper_part .userIcon img {
@@ -193,7 +194,7 @@ body {
     }
 
     .upper_part span {
-        font-size: 13px;
+        font-size: 12px;
     }
 
     .lower_part {
@@ -206,5 +207,7 @@ body {
 
     #card p {
         font-size: 12px;
+        overflow-y: auto;
+        padding: 10px;
     }
 }
