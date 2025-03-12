@@ -181,6 +181,10 @@ body {
         width: 90%;
     }
 
+    .upper_part {
+        gap: 15px;
+    }
+
     .upper_part .userIcon img {
         width: 60px;
         height: 60px;
