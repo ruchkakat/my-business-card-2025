@@ -179,6 +179,12 @@ body {
 @media (max-width: 600px) {
     #container {
         width: 80%;
+        height: auto;
+        min-height: 50vh;
+    }
+
+    .upper_part {
+        height: 60%;
     }
 
     .upper_part .userIcon img {
@@ -188,6 +194,10 @@ body {
 
     .upper_part span {
         font-size: 13px;
+    }
+
+    .lower_part {
+        height: 20%;
     }
 
     .lower_part ul {
