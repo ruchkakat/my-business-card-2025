@@ -195,7 +195,7 @@ body {
 @media (orientation: landscape) and (max-width: 950px) {
     #container {
         width: 70%;
-        height: 70%;
+        height: 65%;
         border-radius: 60px;
     }
 
