@@ -126,27 +126,6 @@ body {
 
 /* hover */
 
-#container:hover #card {
-    width: 100%;
-    height: 100%;
-    opacity: 1;
-}
-
-#container:hover .upper_part {
-    transform: translateY(-38%);
-    border-radius: 70px;
-    height: 65%;
-}
-
-#container:hover .lower_part {
-    transform: translateY(30%);
-    border-radius: 30px;
-}
-
-#container:hover .lower_part ul {
-    transform: translateY(0);
-}
-
 .lower_part ul li a:hover {
     transform: translateY(-3px);
 }
