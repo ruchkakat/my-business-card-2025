@@ -171,6 +171,10 @@ body {
         font-size: 15px;
     }
 
+    .upper_part span::first-letter {
+        font-size: 17px;
+    }
+
     .lower_part ul {
         font-size: 25px;
     }
@@ -179,6 +183,7 @@ body {
 @media (max-width: 600px) {
     #container {
         width: 90%;
+        height: 40%;
     }
 
     .upper_part {
@@ -192,6 +197,10 @@ body {
 
     .upper_part span {
         font-size: 13px;
+    }
+
+    .upper_part span::first-letter {
+        font-size: 15px;
     }
 
     .lower_part ul {
