@@ -19,8 +19,8 @@ body {
 #container {
     position: absolute;
     background: snow;
-    width: 30%;
-    height: 30%;
+    width: 30vw;
+    height: 30vh;
     border-radius: 60px;
     display: flex;
     flex-direction: column;
@@ -134,8 +134,8 @@ body {
 
 @media (max-width: 1300px) {
     #container {
-        width: 60%;
-        height: 40%;
+        width: 60vw;
+        height: 40vh;
     }
 
     #card p {
@@ -162,8 +162,8 @@ body {
 
 @media (max-width: 600px) {
     #container {
-        width: 90%;
-        height: 40%;
+        width: 90vw;
+        height: 40vh;
     }
 
     .upper_part {
@@ -193,14 +193,9 @@ body {
 }
 
 @media (orientation: landscape) and (max-width: 950px) {
-    body {
-        width: 100vw;
-        height: 100vh;
-    }
-
     #container {
-        width: 70%;
-        height: 65%;
+        width: 70vw;
+        height: 65vh;
         border-radius: 60px;
     }
 
