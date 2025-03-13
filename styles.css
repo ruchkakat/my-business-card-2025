@@ -132,9 +132,10 @@ body {
 
 /* responsive */
 
-@media (max-width: 1250px) {
+@media (max-width: 1300px) {
     #container {
-        width: 50%;
+        width: 60%;
+        height: 40%;
     }
 
     #card p {
@@ -188,5 +189,25 @@ body {
 
     #card p {
         font-size: 12px;
+    }
+}
+
+@media (orientation: landscape) and (max-width: 950px) {
+    #container {
+        width: 70%;
+        height: 65%;
+        border-radius: 60px;
+    }
+    
+    .upper_part {
+        width: 99%;
+        height: 75%;
+        border-radius: 60px 60px 0 0;
+    }
+    
+    .lower_part {
+        width: 99%;
+        height: 25%;
+        border-radius: 0 0 60px 60px;
     }
 }
