@@ -134,8 +134,12 @@ body {
 
 @media (max-width: 1500px) {
     #container {
-        width: 55vw;
+        width: 40vw;
         height: 35vh;
+    }
+
+    .upper_part {
+        gap: 15px;
     }
 }
 
